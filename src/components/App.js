@@ -4,10 +4,14 @@ import Review from "./Review"
 
 const App = () =>{
     return (
-        <section className="container"> 
-            <h1 id="review-heading">Our Reviews</h1>
-            <Review/>
-        </section>
+        <main>
+            <section className="container">
+                <div className="title">
+                 <h2 id="review-heading">Our Reviews</h2>
+                </div>
+                <Review />
+            </section>
+        </main>
     )
 }
 
